@@ -40,3 +40,14 @@ O projeto surgiu da necessidade de melhorar a gestão de encomendas em condomín
 | 🏢 Portaria  | id, nome                                           | registrarEncomenda(), associarEncomenda() |
 | 🔔 Notificacao | id, mensagem, dataEnvio, moradorId                | enviar()                            |
 
+# 🚀 Tecnologias Utilizadas
+
+- **Frontend:** HTML, CSS, JavaScript
+
+# 📞 Contato
+
+
+- **Email:** eloisa.1998.silva@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/eloisa-silva-dev/
+
+
