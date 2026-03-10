@@ -27,27 +27,4 @@ O projeto surgiu da necessidade de melhorar a gestão de encomendas em condomín
 4. 🔔 **Enviar Notificação ao Morador**: O sistema envia uma notificação ao morador.
 5. ⏳ **Aguardando Retirada**: A encomenda fica registrada como "aguardando retirada".
 
-## 📐 Diagrama de Classes
-
-![diagram-portaria-digital](https://github.com/user-attachments/assets/049b0fa2-8576-42da-ba8b-8037e5bc7899)
-
-**Classes Principais:**
-
-| Classe      | Atributos                                           | Métodos                             |
-|-------------|-----------------------------------------------------|-------------------------------------|
-| 📦 Encomenda | id, numeroRastreamento, dataRecebimento, status, moradorId | registrar(), atualizarStatus(), notificarMorador() |
-| 👤 Morador   | id, nome, apartamento, telefone, email                        | receberNotificacao(), retirarEncomenda() |
-| 🏢 Portaria  | id, nome                                           | registrarEncomenda(), associarEncomenda() |
-| 🔔 Notificacao | id, mensagem, dataEnvio, moradorId                | enviar()                            |
-
-# 🚀 Tecnologias Utilizadas
-
-- **Frontend:** HTML, CSS, JavaScript
-
-# 📞 Contato
-
-
-- **Email:** eloisa.1998.silva@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/eloisa-silva-dev/
-
 
